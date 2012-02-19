@@ -1,4 +1,3 @@
-#!/usr/local/bin/ruby
 
 lines = File.readlines("text.txt")
 
@@ -16,3 +15,7 @@ puts "#{total_characters_nospace} characters excluding spaces"
 puts "#{word_count_with_split} words"
 puts "#{sentence_count} sentences"
 puts "#{para_count} paragraphs"
+puts "#{sentence_count / para_count} sentecnes per paragraph (average)"
+puts "#{word_count_with_split / sentence_count} words per sentence (average)"
+
+
